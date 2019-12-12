@@ -2254,6 +2254,7 @@
 	<category name="buildings" order="70">
 		<type tag="building" value="residential" minzoom="15"/>
 		<entity_convert pattern="tag_transform" from_tag="building" from_value="apartments" to_tag1="building" to_value1="residential"/>
+		<entity_convert pattern="tag_transform" from_tag="building" from_value="terrace" to_tag1="building" to_value1="residential"/>
 		<entity_convert pattern="tag_transform" from_tag="building" from_value="dormitory" to_tag1="building" to_value1="residential"/>
 		<type tag="building" value="house" minzoom="15"/>
 		<entity_convert pattern="tag_transform" from_tag="building" from_value="houseboat" to_tag1="building" to_value1="house"/>
